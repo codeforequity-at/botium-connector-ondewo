@@ -51,7 +51,7 @@ class BotiumConnectorOndewo {
             botMsg.nlp = {
               intent: {
                 name: botMsg.sourceData.query_result.intent.display_name,
-                confidece: botMsg.sourceData.query_result.intent_detection_confidence
+                confidence: botMsg.sourceData.query_result.intent_detection_confidence
               }
             }
           }
