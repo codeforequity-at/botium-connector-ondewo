@@ -60,9 +60,10 @@ Create a botium.json with this URL in your project directory:
     "Capabilities": {
       "PROJECTNAME": "<whatever>",
       "CONTAINERMODE": "ondewo",
-      "ONDEWO_URL": "...",
-      "ONDEWO_USERNAME": "...",
-      "ONDEWO_PASSWORD": "..."
+      "ONDEWO_EMAIL": "...",
+      "ONDEWO_PASSWORD": "...",
+      "ONDEWO_AUTH_TOKEN": "...",
+      "ONDEWO_PROJECT_ID": "..."
     }
   }
 }
@@ -93,18 +94,22 @@ Botium setup is ready, you can begin to write your [BotiumScript](https://github
 Set the capability __CONTAINERMODE__ to __ondewo__ to activate this connector.
 
 ### ONDEWO_BASEURL
-Ondewo chatbot endpoint base url (e.g. https://cai.saas.demo.ondewo.com)
+Ondewo chatbot base url. By default `grpc-nlu.ondewo.com:443` is used.
 
-### ONDEWO_USERNAME
-Ondewo chatbot endpoint username
+### ONDEWO_EMAIL*
+Ondewo login email address
 
-Optional.
+### ONDEWO_PASSWORD*
+Ondewo login password
 
-### ONDEWO_PASSWORD
-Ondewo chatbot endpoint password
+### ONDEWO_AUTH_TOKEN*
+Ondewo basic auth token
 
-Optional.
+### ONDEWO_PROJECT_ID*
+Ondewo chatbot project id
+
+### ONDEWO_LANGUAGE_CODE*
+Ondewo language code. By default `en` code is used.
 
 ### Roadmap
-* Support for intent/entity asserter
 * Support for sentiment analyze
