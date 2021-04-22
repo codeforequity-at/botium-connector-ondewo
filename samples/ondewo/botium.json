@@ -3,7 +3,10 @@
     "Capabilities": {
       "PROJECTNAME": "Botium Project Ondewo",
       "CONTAINERMODE": "ondewo",
-      "ONDEWO_BASEURL": "https://cai.saas.demo.ondewo.com"
+      "ONDEWO_EMAIL": "test.test@test.com",
+      "ONDEWO_PASSWORD": "abc123",
+      "ONDEWO_AUTH_TOKEN": "Basic YWRt1112222MGV1sadfFoZzN4b29saWVyYafdWo=",
+      "ONDEWO_PROJECT_ID": "1asdfsd2-004a-4000-b00d-e2sdd6as3asd"
     }
   }
 }

@@ -2,6 +2,7 @@
   "name": "botium-ondewo-sample",
   "version": "1.0.0",
   "scripts": {
+    "test-debug": "DEBUG=botium-connector* mocha spec",
     "test": "mocha spec"
   },
   "botium": {
