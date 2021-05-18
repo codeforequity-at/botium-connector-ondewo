@@ -64,7 +64,9 @@ class BotiumConnectorOndewo {
     textInput.setLanguageCode(this.caps[Capabilities.ONDEWO_LANGUAGE_CODE])
 
     if (msg.buttons && msg.buttons.length > 0 && (msg.buttons[0].text || msg.buttons[0].payload)) {
-      textInput.setText(msg.buttons[0].text)
+      textInput.setText(msg.buttons[0].text
+        ? msg.buttons[0].text
+        : _.isString(msg.buttons[0].payload) ? msg.buttons[0].payload : undefined)
     } else if (msg.media && msg.media.length > 0) {
       debug('The \'MEDIA\' message type is not supported yet.')
     } else {

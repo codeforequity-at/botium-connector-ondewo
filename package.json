@@ -1,6 +1,6 @@
 {
   "name": "botium-connector-ondewo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Botium Connector for Ondewo",
   "main": "dist/botium-connector-ondewo-cjs.js",
   "module": "dist/botium-connector-ondewo-es.js",
