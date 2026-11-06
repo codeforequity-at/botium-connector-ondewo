@@ -7,7 +7,8 @@
   "scripts": {
     "build": "npm run eslint && rollup -c",
     "eslint": "eslint index.js",
-    "eslint-fix": "eslint --fix index.js"
+    "eslint-fix": "eslint --fix index.js",
+    "test": "echo \"No tests specified\" && exit 0"
   },
   "author": "Botium GmbH",
   "license": "MIT",
