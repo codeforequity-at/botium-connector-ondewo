@@ -1,6 +1,6 @@
 {
   "name": "botium-connector-ondewo",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Botium Connector for Ondewo",
   "main": "dist/botium-connector-ondewo-cjs.js",
   "module": "dist/botium-connector-ondewo-es.js",
@@ -30,7 +30,7 @@
   },
   "dependencies": {
     "@babel/runtime": "^7.6.2",
-    "@grpc/grpc-js": "^1.2.12",
+    "@grpc/grpc-js": "^1.14.5",
     "@ondewo/nlu-client-nodejs": "git+https://github.com/ondewo/ondewo-nlu-client-nodejs.git#1.1.0",
     "debug": "^4.1.1",
     "lodash": "^4.17.15",
